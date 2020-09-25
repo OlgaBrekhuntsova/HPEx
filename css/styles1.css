@@ -1,0 +1,61 @@
+/* цвет основного текста #212121 */
+/* вторичный цвет текста  #757575;
+ */
+/* белый #FFFFFF  */
+/* акцент #2196f3 */
+/* вторичный цвет фона #2F303A; */
+:root {
+}
+/*           Утилиты                     */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  display: block;
+}
+
+.social-list {
+  display: flex;
+  justify-content: space-between;
+  max-width: 206px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.social-list-item-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.social-list-item-link-svg {
+  width: 20px;
+  height: 20px;
+  fill: black;
+}
